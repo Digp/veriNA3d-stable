@@ -14,16 +14,24 @@ Instructions for Unix systems
 
     install.packages(c("bio3d", "circlize", "jsonlite", "plot3D", "MASS", "RColorBrewer", "RANN"))
 
-2- Download veriNA3d from GitLab. It will download a compressed .zip file with two versions of the package:
+2- Download veriNA3d from GitLab ("http://mmb.irbbarcelona.org/gitlab/dgallego/veriNA3d/repository/archive.zip?ref=master").
+The zip file contains two equivalent versions of the package:
+
     A- veriNA3d_R-3.5.tar.gz
+
     B- veriNA3d_R-3.4.tar.gz 
 
-Option A is the recommended one, since it dramatically speeds up the cifParser function. However, Option B offers the package for R >= 3.4, since R-3.5 might be difficult to install for some unix users.
+The whole package has been developed and tested in R-3.5, which makes it the recommended option. Furthermore, using R-3.5 speeds up the cifParser function, which has a dramatic effect when working with large mmCIF files.
 
-3- Open R and run:
+3- Unzip the file and copy-paste the desired version of the package in your working directory.
+
+4- Open R and run:
 &nbsp;
 
-    install.packages(veriNA3d_R-3.5.tar.gz, repos = NULL, type="source")
+    install.packages("veriNA3d_R-3.5.tar.gz", repos = NULL, type="source")
+
+5- If desired, remove the unnecessary .tar.gz files and the .zip file.
+
 
 ## Documentation
 ----------------
