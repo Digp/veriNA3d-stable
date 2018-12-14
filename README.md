@@ -75,7 +75,7 @@ The whole package has been developed and tested in R-3.5, which makes it the rec
 
 `queryRevdate`: Revision date
 
-`queryCompound`: PDB structure title
+`queryDescription`: PDB structure title
 
 `queryCompType`: Compound type (e.g. Nuc or Prot-nuc)
 
