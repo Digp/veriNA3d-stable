@@ -186,17 +186,15 @@ The whole package has been developed and tested in R-3.5, which makes it the rec
 
 ### Exploratory analysis
 
+`findHDR`: Finds High Density Regions in a 2D scatter plot
+
+`plot2D`: Scatter plot of angles
+
+`plot3Ddens`: 3D view of the density of 2D data.
+
 `plotCategorical`
 
 `plotCircularDistribution`
-
-`plotEtaTheta`
-
-`plot_et`
-
-`plotSetOfDistributions`
-
-`rvec_plot`
 
 
 ## Developers
