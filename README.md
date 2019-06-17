@@ -176,6 +176,8 @@ The whole package has been developed and tested in R-3.5, which makes it the rec
 
 `eRMSD`: Compares structures with the same number of residues using the rVectors (source: Bottaro et al, 2014).
 
+`RMSD`: Compares structures with the RMSD measure.
+
 `dssr`: Wrapper of DSSR software (source: Lu et al, 2015), if installed.
 &nbsp;
 
