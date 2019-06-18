@@ -7,7 +7,7 @@ VeriNA3d is an R package for the analysis of Nucleic Acid structural data. The s
 ## Installation
 ---------------
 
-Instructions for Unix systems
+Instructions
 
 1- Make sure you have all the dependencies already installed in R. If not the case, open R and run:
 &nbsp;
@@ -16,17 +16,9 @@ Instructions for Unix systems
 
 2- Install veriNA3d according with your R version:
 
-For R >= 3.5
 &nbsp;
 
-    install.packages("http://mmb.irbbarcelona.org/gitlab/dgallego/veriNA3d/raw/master/veriNA3d_R-3.5.tar.gz", repos = NULL)
-
-If you have R-3.4:
-&nbsp;
-
-    install.packages("http://mmb.irbbarcelona.org/gitlab/dgallego/veriNA3d/raw/master/veriNA3d_R-3.4.tar.gz", repos = NULL)
-
-The whole package has been developed and tested in R-3.5, which makes it the recommended option. Furthermore, using R-3.5 speeds up the cifParser function, which has a dramatic effect when working with large mmCIF files. The package has been also made available for R-3.4 since some unix users are experiencing problems when installing R-3.5.
+    install.packages("http://mmb.irbbarcelona.org/gitlab/dgallego/veriNA3d/raw/master/veriNA3d.tar.gz", repos = NULL)
 
 3- To start using it, just load the package!
 &nbsp;

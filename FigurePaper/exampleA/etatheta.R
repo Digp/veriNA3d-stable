@@ -21,7 +21,7 @@ cat("Getting data\n")
 ## ----------------------------------------------------------------------------
 
 ## Get latest Leontist non-redundant list of RNA structures
-infochains <- getLeontisList(threshold="2.5A", as.df=TRUE)
+infochains <- getRNAList(threshold="2.5A", as.df=TRUE)
 
 ## Get structural data
 ntinfo <- pipeNucData(pdbID=infochains$pdb, model=infochains$model,
@@ -56,7 +56,7 @@ RMSD_calc <- apply(FUN=pwrmsd, MARGIN=1, X=pairwise)
 RMSD <- data.frame(nt1=pairwise[, 1], nt2=pairwise[, 2], rmsd=RMSD_calc)
 
 ## Apply Pyle method
-ref <- filter_pyle(ntinfo=ntinfo, helicalntID=HDR[[1]], RMSD=RMSD)
+ref <- filter_helical(ntinfo=ntinfo, helicalntID=HDR[[1]], RMSD=RMSD)
 
 pairs <- data.frame(usefulnt=usefulnt, reference=rep(ref, length(usefulnt)))
 RMSD2 <- apply(FUN=pwrmsd, MARGIN=1, X=pairs)

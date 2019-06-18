@@ -21,9 +21,9 @@ function(ntIDs) {
     return(rmsd(pdb1$xyz[,sel1$xyz],fit[,sel2$xyz]))
 }
 
-## "filter_pyle" reproduces the iterative process of RMSD comparison to chose
+## "filter_helical" reproduces the iterative process of RMSD comparison to chose
 ## an helical nucleotide of reference
-filter_pyle <- 
+filter_helical <- 
 function(ntinfo, helicalntID, RMSD, bandwidths=c(40,40), cutoff=0.85) {
 
     twideMatrix <- t(acast(RMSD, nt1~nt2, value.var="rmsd"))
