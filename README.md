@@ -193,6 +193,8 @@ Instructions
 
 Diego Gallego
 
+Eric Matamoros
+
 Leonardo Darré (Former Developer)
 &nbsp;
 
