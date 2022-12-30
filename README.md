@@ -1,6 +1,11 @@
-<snippet>
-  <content>
 # R PACKAGE: veriNA3d
+
+Paper: https://academic.oup.com/bioinformatics/article/35/24/5334/5529936
+Citation details below.
+
+This is the new repository where I will make updates on the veriNA3d R package (stable version), if necessary.
+It can still be found at the original site: http://mmb.irbbarcelona.org/gitlab/dgallego/veriNA3d-dev, but the mainteinance there is discontinued.
+
 
 VeriNA3d is an R package for the analysis of Nucleic Acid structural data. The software was developed on top of bio3d (Grant et al, 2006) with a higher level of abstraction. In addition of single-structure analyses, veriNA3d also implements pipelines to handle whole datasets of mmCIF/PDB structures. As far as we know, no similar software has been previously distributed, thus it aims to fill a gap in the data mining pipelines of PDB structural data analyses.
 
@@ -18,7 +23,7 @@ Instructions
 
 &nbsp;
 
-    install.packages("http://mmb.irbbarcelona.org/gitlab/dgallego/veriNA3d/raw/master/veriNA3d.tar.gz", repos = NULL)
+    install.packages("https://github.com/Digp/veriNA3d-stable/raw/master/veriNA3d.tar.gz", repos = NULL)
 
 3- To start using it, just load the package!
 &nbsp;
@@ -195,12 +200,17 @@ Diego Gallego
 
 Eric Matamoros
 
-Leonardo Darré (Former Developer)
+Leonardo Darré
 &nbsp;
 
 &nbsp;
 
 *Molecular Modeling and Bioinformatics Group.*
+
+
+## Citation
+----------
+Diego Gallego, Leonardo Darré, Pablo D Dans, Modesto Orozco, VeriNA3d: an R package for nucleic acids data mining, Bioinformatics, Volume 35, Issue 24, 15 December 2019, Pages 5334–5336, https://doi.org/10.1093/bioinformatics/btz553
 
 
 ## License
